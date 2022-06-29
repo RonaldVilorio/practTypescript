@@ -3,6 +3,8 @@ interface Vehicle{
     name:string;
     year:number;
     broken:boolean;
+    summary():string;
+
 }
 const printVehicle2 = (vehicle:Vehicle)=>{}
 
