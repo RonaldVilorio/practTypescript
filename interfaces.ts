@@ -13,6 +13,14 @@ const oldCivic = {
     year: 2000,
     broken:true
 }
+const drink ={
+    color:'brown',
+    carbonated:true,
+    sugar:40,
+    summary():string{
+        return `My drink has ${this.sugar}`
+    }
+}
 printVehicle2(oldCivic)
 
 
